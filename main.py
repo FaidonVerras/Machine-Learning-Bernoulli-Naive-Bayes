@@ -11,7 +11,7 @@ from learning_curves import *  #learning curves and graph functions
 from NaiveBayes import *
 
 #CONSTANTS
-_NUM_WORDS = 25
+_NUM_WORDS = 1000
 
 def getDataPerPercentage(X, Y, p): 
     xtrain, xtest, ytrain, ytest = train_test_split(X, Y, test_size=1-p)
